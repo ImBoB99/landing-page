@@ -41,6 +41,13 @@ section {
     padding: 6rem;
 }
 
+footer {
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+}
+
 .header-container, .hero-container, .information-container, .quote-container, .cta-container {
     width: 1280px;
     margin: auto;
@@ -154,4 +161,28 @@ section {
     font-size: 24px;
     font-weight: 800;
     text-align: end;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4rem;
+}
+
+.cta-text-main {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #FFFF;
+}
+
+.cta-text-secondary {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFF;
+}
+
+.cta-container .button-cta {
+    border: solid 1px #FFF;
 }
